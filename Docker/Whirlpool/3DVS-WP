@@ -19,6 +19,8 @@ RUN cd ~ \
 RUN apt-get update \
 	&& apt-get -y install apache2
 
+RUN chmod +x ~/3DVS/Docker/Whirlpool/install.sh
+
 RUN ~/3DVS/Docker/Whirlpool/install.sh
 
 RUN cd ~/fives \
