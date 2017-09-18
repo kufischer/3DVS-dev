@@ -1,10 +1,10 @@
 With the files in the Docker folder it is possible to create Docker
-images for DyVisual which can be run in a Linux or Windows
+images for 3DVS which can be run in a Linux or Windows
 environment.
 
 For now two Docker images can be generated:
 
-generic: A generic DyVisual image which can be used for the
+generic: A generic 3DVS image which can be used for the
 	 development of own applications.
 
 Whirlpool: An example application for the visualization of deviation
@@ -17,11 +17,11 @@ which commands could be used in a Windows environment.
 
 To create the images use:
 
-make create DF=Whirlpool/DyVisual-WP
+make create DF=Whirlpool/3DVS-WP
 
 or
 
-make create DF=generic/DyVisual
+make create DF=generic/3DVS
 
 To run the created images use:
 
@@ -50,7 +50,7 @@ ID is displayed in the last line of the creation output or can be
 displayed by the Docker command "docker images".
 
 When the Docker image is run it should be possible to connect to
-DyVisual with Google Chrome or Mozilla Firefox using the URL:
+3DVS with Google Chrome or Mozilla Firefox using the URL:
 
 http://localhost/WebClient/client.xhtml
 or
