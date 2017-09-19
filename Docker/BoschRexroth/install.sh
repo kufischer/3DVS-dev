@@ -2,7 +2,7 @@
 
 FIVESHOME=/root/fives
 WEBAPPS=/var/www/html/
-BRHOME=/root/3DVS/BoschRexroth
+BRHOME=/root/3DVS-dev/BoschRexroth
 
 echo ${FIVESHOME}
 echo ${WEBAPPS}

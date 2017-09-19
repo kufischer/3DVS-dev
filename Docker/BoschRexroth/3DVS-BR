@@ -12,7 +12,7 @@ RUN cd ~ \
 	&& git clone https://github.com/fives-team/fives -b develop
 
 RUN cd ~ \
-	&& git clone https://github.com/kufischer/3DVS.git
+	&& git clone https://github.com/kufischer/3DVS-dev.git
 
 #RUN cd ~ \
 #	&& sed -i 's/34837/22837/g' 3DVS/Whirlpool/WhirlpoolFiVES/WebClientWp/kiara/fives.json
@@ -22,9 +22,9 @@ RUN cd ~ \
 RUN apt-get update \
 	&& apt-get -y install apache2
 
-RUN chmod +x ~/3DVS/Docker/BoschRexroth/install.sh
+RUN chmod +x ~/3DVS-dev/Docker/BoschRexroth/install.sh
 
-RUN ~/3DVS/Docker/BoschRexroth/install.sh
+RUN ~/3DVS-dev/Docker/BoschRexroth/install.sh
 
 RUN cd ~/fives \
 	&& nuget restore FIVES.sln \
