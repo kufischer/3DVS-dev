@@ -13,6 +13,6 @@ cp -r ${BRHOME}/SceneParser ${FIVESHOME}/Plugins/
 cp ${BRHOME}/WebClientBR.zip ${WEBAPPS}
 cd ${WEBAPPS}; unzip WebClientBR.zip
 
-cp -f ${BPHOME}/FIVES.sln ${FIVESHOME}
+cp -f ${BRHOME}/FIVES.sln ${FIVESHOME}
 
 
