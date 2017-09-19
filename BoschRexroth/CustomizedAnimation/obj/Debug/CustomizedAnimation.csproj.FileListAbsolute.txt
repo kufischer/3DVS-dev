@@ -1,0 +1,10 @@
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Binaries\Debug\App.config
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Binaries\Debug\fives.kiara
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Binaries\Debug\clientManager.kiara
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Binaries\Debug\FIVES.manifest
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Binaries\Debug\CustomizedAnimation.dll
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Binaries\Debug\CustomizedAnimation.pdb
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Plugins\CustomizedAnimation\obj\Debug\CustomizedAnimation.csprojResolveAssemblyReference.cache
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Plugins\CustomizedAnimation\obj\Debug\CustomizedAnimation.dll
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Plugins\CustomizedAnimation\obj\Debug\CustomizedAnimation.pdb
+D:\Myfiles\Study\Documents\Master_SaarU\5thSemester\HiWi-DFKI\workspace\DyVisual\FiVES\Binaries\Debug\CustomizedAnimation.dll.config

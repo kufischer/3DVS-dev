@@ -1,0 +1,14 @@
+C:\entw\FiVES\Plugins\SceneParser\obj\Debug\SceneParser.csprojResolveAssemblyReference.cache
+C:\entw\FiVES\Binaries\Debug\App.config
+C:\entw\FiVES\Binaries\Debug\SceneParser.dll.config
+C:\entw\FiVES\Binaries\Debug\SceneParser.dll
+C:\entw\FiVES\Binaries\Debug\SceneParser.pdb
+C:\entw\FiVES\Plugins\SceneParser\obj\Debug\SceneParser.dll
+C:\entw\FiVES\Plugins\SceneParser\obj\Debug\SceneParser.pdb
+C:\sys\FiVES\Binaries\Debug\App.config
+C:\sys\FiVES\Binaries\Debug\SceneParser.dll.config
+C:\sys\FiVES\Binaries\Debug\SceneParser.dll
+C:\sys\FiVES\Binaries\Debug\SceneParser.pdb
+C:\sys\FiVES\Plugins\SceneParser\obj\Debug\SceneParser.csprojResolveAssemblyReference.cache
+C:\sys\FiVES\Plugins\SceneParser\obj\Debug\SceneParser.dll
+C:\sys\FiVES\Plugins\SceneParser\obj\Debug\SceneParser.pdb
