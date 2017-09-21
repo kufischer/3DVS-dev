@@ -36,6 +36,6 @@ WORKDIR /root/fives/Binaries/Debug
 
 EXPOSE 8181 8081 34837 80
 
-RUN chmod +x ~/3DVS/Docker/generic/start
+RUN chmod +x ~/3DVS-dev/Docker/generic/start
 
-CMD ["/root/3DVS/Docker/generic/start"]
+CMD ["/root/3DVS-dev/Docker/generic/start"]
