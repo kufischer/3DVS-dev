@@ -2,7 +2,7 @@
 
 FIVESHOME=/root/fives
 WEBAPPS=/var/www/html/
-SFHOME=/root/3DVS/SmartFactory
+SFHOME=/root/3DVS
 
 echo ${FIVESHOME}
 echo ${WEBAPPS}
