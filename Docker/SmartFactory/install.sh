@@ -7,6 +7,6 @@ SFHOME=/root/3DVS/SmartFactory
 echo ${FIVESHOME}
 echo ${WEBAPPS}
 
-cp ${WPHOME}/SmartFactory.zip ${WEBAPPS}
+cp ${SFHOME}/SmartFactory.zip ${WEBAPPS}
 cd ${WEBAPPS}; unzip SmartFactory.zip
 
