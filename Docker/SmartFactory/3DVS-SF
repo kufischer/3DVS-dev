@@ -1,0 +1,41 @@
+FROM mono:latest
+
+MAINTAINER Torsten Spieldenner <torsten.spieldenner@dfki.de>
+
+RUN apt-get update \
+	&& apt-get -y install git
+
+RUN apt-get update \
+	&& apt-get -y install zip
+
+RUN cd ~ \
+	&& git clone https://github.com/fives-team/fives -b develop
+
+RUN cd ~ \
+	&& git clone https://github.com/kufischer/3DVS.git
+
+#RUN cd ~ \
+#	&& sed -i 's/34837/22837/g' 3DVS/Whirlpool/WhirlpoolFiVES/WebClientWp/kiara/fives.json
+#RUN cd ~ \
+#	&& sed -i 's/localhost/dw1.beincpps.eu/g' 3DVS/Whirlpool/WhirlpoolFiVES/WebClientWp/kiara/fives.json
+
+RUN apt-get update \
+	&& apt-get -y install apache2
+
+RUN chmod +x ~/3DVS/Docker/SmartFactory/install.sh
+
+RUN ~/3DVS/Docker/SmartFactory/install.sh
+
+RUN cd ~/fives \
+	&& nuget restore FIVES.sln \
+	&& xbuild FIVES.sln
+
+RUN echo "ServerName localhost" >>/etc/apache2/apache2.conf
+
+WORKDIR /root/fives/Binaries/Debug
+
+EXPOSE 8181 8081 34837 80
+
+RUN chmod +x ~/3DVS/Docker/generic/start
+
+CMD ["/root/3DVS/Docker/generic/start"]
