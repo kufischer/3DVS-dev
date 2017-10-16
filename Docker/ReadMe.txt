@@ -1,23 +1,13 @@
-With the files in the Docker folder it is possible to create Docker
-images for 3DVS which can be run in a Linux or Windows
-environment.
-
-For now two Docker images can be generated:
-
-generic: A generic 3DVS image which can be used for the
-	 development of own applications.
-
-Whirlpool: An example application for the visualization of deviation
-	   maps. This example was created in the context of the FITMAN
-	   project (http://www.fitman-fi.eu/).
-
 The Makefile works only in a Unix/Linux environment. However, for
 users not really familiar with Docker it might be still helpful to see
 which commands could be used in a Windows environment.
 
-To create the images use:
+To create docker images from the provided docker files use any of the
+following commands:
 
 make create DF=Whirlpool/3DVS-WP
+
+make create DF=SmartFactory/3DVS-SF
 
 or
 
@@ -31,7 +21,8 @@ or
 
 make rund IMAGE=<image>
 
-where the run starts the Docker image in interactive mode, to make
+Use "docker images" to look for the image id (<image>). 
+run starts the Docker image in interactive mode, to make
 interaction with the FiVES server possible. rund starts the Docker
 image as a deamon without tty connection.
 
@@ -53,12 +44,15 @@ When the Docker image is run it should be possible to connect to
 3DVS with Google Chrome or Mozilla Firefox using the URL:
 
 http://localhost/WebClient/client.xhtml
+
+http://localhost/SmartFactory/assembly.html
+
 or
 http://localhost/WebClientWp/client.html
 
 respectively. If port 80 is already busy on the host machine the port
 mapping needs to be changed in the "docker run" command.
 
-In the Whirlpool example the deviation map can be zoomed by moving the
-mouse while the right mouse button is pressed and rotated with pressed
-left mouse button.
+No user cretentials are needed for singing in. Just click on the respectively
+button. Zoom in on the models is possible with draging the mouse while doing a
+right click; rotating with left mouse button.
