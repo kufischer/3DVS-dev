@@ -5,9 +5,11 @@ which commands could be used in a Windows environment.
 To create docker images from the provided docker files use any of the
 following commands:
 
+make create DF=SmartFactory/3DVS-SF
+
 make create DF=Whirlpool/3DVS-WP
 
-make create DF=SmartFactory/3DVS-SF
+make create DF=BoschReroth/3DVS-BR
 
 or
 
