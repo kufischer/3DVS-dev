@@ -13,7 +13,7 @@ make create DF=BoschRexroth/3DVS-BR
 
 or
 
-make create DF=generic/3DVS
+make create DF=generic/3DVS2
 
 To run the created images use:
 

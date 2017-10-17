@@ -10,7 +10,8 @@ Smart Factory: The model of the Smart Factory at DFKI in Kaiserslautern
 	which is used in the SmartPlant One project of Open Call I.
 	
 BoschRexroth: An example for a simple data driven animation of an XML3D
-	model.
+	model. Instructions on how to animate the scene are given in
+	BoschRexroth/ScriptsAndDocuments/instruction.docx .
 
 Whirlpool: An example application for the visualization of deviation
 	maps. This example was created in the context of the FITMAN
