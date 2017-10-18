@@ -21,7 +21,8 @@ generic: A generic 3DVS image which can be used for the
 	 development of own applications.
 	
 The file ReadMe.txt in folder Docker contains further instructions on how
-to create the respective docker images to create and deploy the respective
-docker images with the assumption that docker (www.docker.com) is already
-installed in the local environment. 
- 
+to create and deploy the respective docker images with the assumption that
+docker (www.docker.com) is already installed in the local environment. 
+
+Please send email to Klaus.Fischer@dfki.de if you have any questions
+or comments.
